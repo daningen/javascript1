@@ -1,0 +1,132 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #1e468a;
+}
+
+#content {
+    background-color: #10ccf2;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 2em;
+    width: 600px;
+}
+
+.flag {
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+.sweden {
+    background-color: #006aa7;
+    height: 100px;
+    width: 160px;
+}
+
+.sweden .bar {
+    background-color: #fecc00;
+}
+
+.sweden .horizontal.bar {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 160px;
+}
+
+.sweden .vertical.bar {
+    height: 100px;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.norway {
+    background-color: #ef2b2d;
+    height: 80px;
+    width: 110px;
+}
+
+.norway .outer {
+    background-color: #fff;
+}
+
+.norway .outer.horizontal {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 110px;
+}
+
+.norway .outer.vertical {
+    height: 80px;
+    left: 30px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.norway .inner {
+    background-color: #002868;
+}
+
+.norway .inner.horizontal {
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 35px;
+    width: 110px;
+}
+
+.norway .inner.vertical {
+    height: 80px;
+    left: 35px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+
+.netherland {
+    background-color: #1e468a;
+    height: 100px;
+    width: 160px;
+}
+
+.netherland .horizontal1 {
+    background-color: #ae1928;
+    z-index: 1;
+    top: 0;
+    position: absolute;
+    height: 33.33px;
+    width: 160px;
+}
+
+.netherland .horizontal2 {
+    background-color: white;
+    height: 66.66px;
+    position: relative;
+    width: 160px;
+}
+
+.nigeria {
+    background-color: #118757;
+    height: 100px;
+    width: 160px;
+}
+
+.nigeria .vertical1 {
+    background-color: white;
+    left: 53.33px;
+    height: 100px;
+    position: relative;
+    width: 55.33px;
+}

@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+.flag,
+body {
+    position: relative;
+}
+
+h1 {
+    color: #03c;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.infoBox {
+    background-color: #16a085;
+    color: #ecf0f1;
+    padding: 10%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    cursor: default;
+}
+
+.instructionBox {
+    background-color: #2980b9;
+    padding: 10%;
+}
+
+.pointsBox {
+    background-color: orange;
+    padding: 10%;
+}
+
+.markWrong {
+    border-color: #e74c3c;
+    background-color: #e74c3c;
+}
+
+.markCorrect {
+    border-color: #2ecc71;
+    background-color: #2ecc71;
+}
+
+.choices {
+    color: pink;
+}
+
+#content {
+    /* border: 5px solid #ecf0f1;
+    background-color: #ecf0f1; */
+
+    padding: 3%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: default;
+}
+
+.flag {
+    float: left;
+    border-style: solid;
+    border-color: blue;
+    margin: 2px;
+}
+
+.italy {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #eee;
+}
+
+.italy .first {
+    position: absolute;
+    background-color: #009246;
+    height: 100px;
+    width: 50px;
+}
+
+.italy .second {
+    position: absolute;
+    left: 100px;
+    background-color: #cb2b37;
+    height: 100px;
+    width: 50px;
+}
+
+.netherland {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #ae1c28;
+}
+
+.netherland .first {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    top: 33.3px;
+    background-color: #eee;
+    height: 33.3px;
+    width: 150px;
+}
+
+.netherland .second {
+    position: absolute;
+    top: 66.66px;
+    background-color: #21468b;
+    height: 33.3px;
+    width: 150px;
+}
+
+.ethiopia {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #da121a;
+}
+
+.ethiopia .first {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    top: 33.3px;
+    background-color: #fde642;
+    height: 33.3px;
+    width: 150px;
+}
+
+.ethiopia .second {
+    position: absolute;
+    top: 66.6px;
+    background-color: #078930;
+    height: 33.33px;
+    width: 150px;
+}
+
+.sweden {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #005a99;
+    z-index: 1;
+}
+
+.sweden .first {
+    position: absolute;
+    top: 40px;
+    background-color: #fecc00;
+    width: 150px;
+    height: 20px;
+    z-index: 1;
+}
+
+.sweden .second {
+    position: absolute;
+    left: 50px;
+    background-color: #fecc00;
+    height: 100px;
+    width: 20px;
+    z-index: 1;
+}
+
+
+
+.nigeria {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #eee;
+}
+
+.nigeria .first {
+    position: absolute;
+    background-color: #009246;
+    height: 100px;
+    width: 50px;
+}
+
+.nigeria .second {
+    position: absolute;
+    left: 100px;
+    background-color: #009246;
+    height: 100px;
+    width: 50px;
+}
+
+.japan {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+
+.japan .japanBlob {
+    position: absolute;
+    background-color: #ed2939;
+    border-radius: 50%;
+    width: 40%;
+    height: 60%;
+    left: 30%;
+    top: 20%;
+}
+
+.empty {
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: grey;
+}
+
+.question {
+    float: left;
+    padding-right: 161px;
+    padding-left: 166px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background-color: #ecf0f1;
+}
+
+.question:hover {
+    background-color: pink;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73ad21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    border: 3px solid #73ad21;
+}
+
+/* denna använder jag till min fråga i memory flag delen */
+.positioned {
+    position: absolute;
+    background: #008cba;
+    top: 140px;
+    left: 20px;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 3 px;
+    color: white;
+}
+
+/* i denna lägger jag slumpflaggan i memorydelen */
+.question1 {
+    position: absolute;
+    background: white;
+    top: 80px;
+    left: 40px;
+    padding: 20px;
+}

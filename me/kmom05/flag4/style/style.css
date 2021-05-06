@@ -1,0 +1,166 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+#content {
+    border: 1px solid black;
+    background-color: #a7f204;
+    padding: 2em;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.flag {
+    float: left;
+}
+
+.italy {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+}
+
+.italy .first {
+    position: absolute;
+    background-color: #009246;
+    height: 200px;
+    width: 100px;
+}
+
+.italy .second {
+    position: absolute;
+    left: 200px;
+    background-color: #cb2b37;
+    height: 200px;
+    width: 100px;
+}
+
+.netherland {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #ae1c28;
+}
+
+.netherland .first {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    top: 66.6px;
+    background-color: #eee;
+    height: 66.6px;
+    width: 300px;
+}
+
+.netherland .second {
+    position: absolute;
+    top: 133.33px;
+    background-color: #21468b;
+    height: 66.6px;
+    width: 300px;
+}
+
+.ethiopia {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #da121a;
+}
+
+.ethiopia .first {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    top: 66.6px;
+    background-color: #fde642;
+    height: 66.6px;
+    width: 300px;
+}
+
+.ethiopia .second {
+    position: absolute;
+    top: 133.33px;
+    background-color: #078930;
+    height: 66.6px;
+    width: 300px;
+}
+
+.sweden {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #005a99;
+}
+
+.sweden .first {
+    position: absolute;
+    top: 80px;
+    background-color: #fecc00;
+    width: 300px;
+    height: 40px;
+}
+
+.sweden .second {
+    position: absolute;
+    left: 100px;
+    background-color: #fecc00;
+    height: 200px;
+    width: 40px;
+}
+
+
+
+.nigeria {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+}
+
+.nigeria .first {
+    position: absolute;
+    background-color: #009246;
+    height: 200px;
+    width: 100px;
+}
+
+.nigeria .second {
+    position: absolute;
+    left: 200px;
+    background-color: #009246;
+    height: 200px;
+    width: 100px;
+}
+
+
+.hidden {
+    background-color: #0ea4ef;
+    width: 300px;
+    height: 200px;
+    border: 1px black solid;
+    margin: 0.5em;
+    float: left;
+}
+
+.extra {
+    outline: 20px blue dotted;
+}
+
+.nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 0.5em;
+    background-color: grey;
+}
+
+.nav li:hover {
+    background-color: darkgrey;
+}

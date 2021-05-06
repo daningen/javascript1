@@ -108,6 +108,7 @@
 
 
     for (var i = 0; i < nrOfBlocks; i++) {
+        console.log("vi startar här");  //min kommentar
         temp[i].setAttribute('id', i);
         temp[i].onclick = function () {
             displayHidden(this.id);
